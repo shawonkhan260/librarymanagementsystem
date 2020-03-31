@@ -1,0 +1,11 @@
+# Disable directory browsing 
+Options -Indexes
+
+
+# Hide the contents of directories
+#IndexIgnore *
+
+#redirect broken link
+
+ErrorDocument 404 /sbd1.php
+ErrorDocument 403 /sbd1.php
